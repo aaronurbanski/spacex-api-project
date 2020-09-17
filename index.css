@@ -1,0 +1,41 @@
+#startOver {
+  display: none;
+}
+.button {
+  padding: 5px;
+  margin: 3px;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+.launches {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.launch {
+  margin: 5px;
+  padding: 5px;
+  width: 400px;
+  height: 400px;
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+ p {
+   color: white;
+   text-shadow: 0px 0px 3px black;
+ }
+
+ a {
+   color: #0000FF;
+   background-color: rgba(180, 180, 255, 0.7);
+   padding: 3px;
+   border-radius: 5px;
+ }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="index.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <title>SpaceX API Project</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/SpaceX_logo_black.svg/1000px-SpaceX_logo_black.svg.png" /></div>
+      <div class="options">
+        <label>Start date: </label>
+        <input type="date" value="" name="startDate" id="startDate" />
+        <label>End date: </label>
+        <input type="date" value="" name="endDate" id="endDate" />
+        <label>Launch successful</label>
+        <input type="checkbox" value="" name="launchSuccess" id="launchSuccess" />
+        <label>Landing successful</label>
+        <input type="checkbox" value="" name="landSuccess" id="landSuccess" />
+        <label>Number of launches</label>
+        <select name="numOfLaunches" id="numOfLaunches" size="1">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+       <span class="button" id="getLaunches">Get Launches</span>
+       <span class="button" id="startOver">Start Over</span>
+      </div>
+      <div class="launches">
+        
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
