@@ -79,9 +79,9 @@ function displayLaunches(launches) {
 
 function startOver() {
   startOverBtn.style.display = "none";
-  count = 0;
-  updateText();
   while (launchesDiv.firstChild) {
     launchesDiv.removeChild(launchesDiv.lastChild);
   }
+  count = 0;
+  updateText();
 }
