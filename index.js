@@ -36,8 +36,8 @@ async function fetchLaunches() {
     displayLaunches(jsonLaunches);
     startOverBtn.style.display = "inline-block";
   } else {
-    alert("No further results");
     startOver();
+    alert("No further results");
   }
   count += numOfLaunches;
   updateText();
