@@ -35,13 +35,12 @@ async function fetchLaunches() {
   if (jsonLaunches.length > 0) {
     displayLaunches(jsonLaunches);
     startOverBtn.style.display = "inline-block";
+    count += numOfLaunches;
+    updateText();
   } else {
     alert("No further results");
     startOver();
-    return;
   }
-  count += numOfLaunches;
-  updateText();
 }
 
 function displayLaunches(launches) {
